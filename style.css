@@ -1,0 +1,43 @@
+.cont {
+    width: 700px;
+    height: 500px;
+    margin: 50px auto auto;
+    background-color: teal;
+    text-align: center;
+}
+
+.frst {
+    width: 100px;
+    height: 100px;
+    /* background-color: rgba(0, 0, 255, 0.341); */
+    border-radius: 50%;
+}
+
+.ex1 {
+    position: relative;
+    top: 100px;
+    left: 300px;
+    background-color: green;
+    z-index: 1;
+}
+
+.normal {
+    position: relative;
+    top: 200px;
+    left: 300px;
+    background-color: blue;
+    z-index: 2;
+}
+
+.ex2 {
+    position: relative;
+    left: 300px;
+    background-color: red;
+    z-index: 0;
+}
+
+.normal:hover {
+    background-color: aliceblue;
+    position: relative;
+    right: 600px;
+}
